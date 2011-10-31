@@ -15,6 +15,7 @@
 		4F8E99CC145E1816008A9C69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E99CB145E1816008A9C69 /* AppDelegate.m */; };
 		4F8E99CF145E1816008A9C69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E99CE145E1816008A9C69 /* ViewController.m */; };
 		4F8E99D2145E1816008A9C69 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E99D0145E1816008A9C69 /* ViewController.xib */; };
+		4F8E99DD145E21C3008A9C69 /* connect_with_facebook.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E99DC145E21C2008A9C69 /* connect_with_facebook.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4F8E99CD145E1816008A9C69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4F8E99CE145E1816008A9C69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F8E99D1145E1816008A9C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4F8E99DC145E21C2008A9C69 /* connect_with_facebook.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = connect_with_facebook.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				4F8E99C3145E1816008A9C69 /* Kamber-Info.plist */,
 				4F8E99C4145E1816008A9C69 /* InfoPlist.strings */,
 				4F8E99C7145E1816008A9C69 /* main.m */,
+				4F8E99DC145E21C2008A9C69 /* connect_with_facebook.gif */,
 				4F8E99C9145E1816008A9C69 /* Kamber-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -150,6 +153,7 @@
 			files = (
 				4F8E99C6145E1816008A9C69 /* InfoPlist.strings in Resources */,
 				4F8E99D2145E1816008A9C69 /* ViewController.xib in Resources */,
+				4F8E99DD145E21C3008A9C69 /* connect_with_facebook.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				4F8E99D7145E1816008A9C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

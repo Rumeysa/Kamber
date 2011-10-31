@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)connectWithFacebookButton:(id)sender;
+
 @end
