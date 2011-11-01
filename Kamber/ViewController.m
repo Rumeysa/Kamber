@@ -22,12 +22,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    
-    // deneme
-    
-    
-    // deneme  2
+  
 }
 
 - (void)viewDidUnload
@@ -67,7 +62,8 @@
 
 -(IBAction)connectWithFacebookButton:(id)sender
 {
-    
+    NSString *url = [NSString stringWithFormat:@"http://www.facebook.com"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
 }
 
 
